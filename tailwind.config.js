@@ -16,6 +16,10 @@ module.exports = {
           accent: "#37cdbe",
           neutral: "#114B5F",
           "base-100": "#ffffff",
+          info: "#3ABFF8",
+          success: "#36D399",
+          warning: "#FBBD23",
+          error: "#F87272",
 
           "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes
           "--rounded-btn": "0.5rem", // border radius rounded-btn utility class, used in buttons and similar element
