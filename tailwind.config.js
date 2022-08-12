@@ -1,13 +1,13 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
+  mode: "jit",
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   plugins: [require("daisyui")],
   daisyui: {
+    styled: true,
+    fontFamily: {
+      main: ['Roboto', 'sans-serif'],
+    },
     themes: [
       {
         mytheme: {
