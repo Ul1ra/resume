@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactComponent as GithubLogo } from "../../assets/github.svg";
-import { ReactComponent as LinkedinLogo } from "../../assets/linkedin.svg";
+import { ReactComponent as GithubLogo } from "../../assets/svgs/github.svg";
+import { ReactComponent as LinkedinLogo } from "../../assets/svgs/linkedin.svg";
 
 
 const Footer = () => {

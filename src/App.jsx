@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Hero from "./Components/Hero/Hero.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Showcase from "./Components/Showcase/Showcase.jsx";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       {/* <div className="divider"></div> */}
       <main className="flex-grow">
         <Hero />
+        <Showcase />
       </main>
       <Footer />
     </div>

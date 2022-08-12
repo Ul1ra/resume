@@ -15,8 +15,8 @@ const Navbar = () => {
           <li><a>Home</a></li>
           <li><a>Showcase</a></li>
           <li><a>Experiences</a></li>
-          <li><a>Education</a></li>
-          <li><a>Skills</a></li>
+          <li><a>About Me</a></li>
+          {/* <li><a>Skills</a></li> */}
           {/* <li><a>Conclusion</a></li> */}
         </ul>
       </div>
@@ -27,8 +27,8 @@ const Navbar = () => {
         <li><a>Home</a></li>
         <li><a>Showcase</a></li>
         <li><a>Experiences</a></li>
-        <li><a>Education</a></li>
-        <li><a>Skills</a></li>
+        <li><a>About Me</a></li>
+        {/* <li><a>Skills</a></li> */}
         {/* <li><a>Conclusion</a></li> */}
       </ul>
     </div>
